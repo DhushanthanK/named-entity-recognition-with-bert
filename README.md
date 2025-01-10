@@ -1,11 +1,12 @@
 # Named Entity Recognition with BERT
-This project implements a Named Entity Recognition (NER) system using a fine-tuned BERT model.
+
+A PyTorch-based implementation of a Named Entity Recognition (NER) model using BERT and the CoNLL-2003 dataset. This project leverages Hugging Face Transformers for token classification to identify entities such as persons, locations, and organizations.
 
 ## Features
-
-- Utilizes the BERT architecture for token classification.
-- Pre-trained model available for improved prediction accuracy.
-- Supports inference on custom text inputs.
+- BERT-based NER model fine-tuned on the CoNLL-2003 dataset.
+- Efficient training with early stopping and dynamic learning rate scheduling.
+- Performance evaluation using precision, recall, and F1 scores via SeqEval.
+- Real-world token classification-ready deployment.
 
 ## Instructions
 
