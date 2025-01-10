@@ -6,7 +6,6 @@ A PyTorch-based implementation of a Named Entity Recognition (NER) model using B
 - BERT-based NER model fine-tuned on the CoNLL-2003 dataset.
 - Efficient training with early stopping and dynamic learning rate scheduling.
 - Performance evaluation using precision, recall, and F1 scores via SeqEval.
-- Real-world token classification-ready deployment.
 
 ## Instructions
 
